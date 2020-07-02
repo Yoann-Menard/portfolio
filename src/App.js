@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+/* <------------ Importation Components --------------> */
+import Menu from './components/Menu';
+import Presentation from './components/Presentation';
+import Coordonnees from './components/Coordonnees';
+import Competences from './components/Competences';
+import Projets from './components/Projets';
+import Hobbies from './components/Hobbies';
+import Formulaire from './components/Formulaire';
+/* <--------------- Importation CSS -----------------> */
+import './css/App.css';
+import './css/index.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Menu />
+        <Presentation />
+        <Coordonnees />
+        <Competences />
+        <Projets />
+        <Hobbies />
+        <Formulaire />
+      </div>
+    );
+  }
 }
-
-export default App;
