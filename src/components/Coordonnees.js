@@ -1,4 +1,8 @@
 import React from 'react';
+import cv from '../assets/cv/CV_Menard_Yoann.pdf';
+import github from '../assets/logo/github.png';
+import gitlab from '../assets/logo/gitlab.png';
+import linkedin from '../assets/logo/linkedin.png';
 
 const Coordonnees = () => {
   return (
@@ -52,13 +56,16 @@ const Coordonnees = () => {
             </p>
           </div>
 
-          <div class='about-profile'>
-            <button
-              onClick="window.location.href='http://localhost:3000/CV_Menard_Yoann.pdf';"
-              class='cv'
+          <div class='about-profile-cv'>
+            <a
+              class='waves-effect waves-light btn-small'
+              href={cv}
+              target='__blank'
+              rel='noopener noreferrer'
+              download
             >
-              Mon CV
-            </button>
+              Telecharger mon CV<em class='button-cv'></em>
+            </a>
           </div>
         </div>
       </section>

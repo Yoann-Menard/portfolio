@@ -1,5 +1,15 @@
 import React from 'react';
-import '../css/Menu.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from 'react-router-dom';
+import '../css/style.css';
+import '../assets/logo/github.png';
+import '../assets/logo/linkedin.png';
 
 const Menu = () => {
   return (
@@ -7,56 +17,47 @@ const Menu = () => {
        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
        */
     <div className='Menu'>
-      <div id='container'>
-        <div class='one-half column'>
-          <header>
-            <button class='nav-toggle' aria-label='toggle navigation'>
-              <span class='hamburger'></span>
-            </button>
-            <nav class='nav'>
+      <div class='one-half column'>
+        <header>
+          <nav class='nav'>
+            <div class='nav-wrapper'>
               <ul class='nav__list'>
-                <li class='nav__item'>
-                  <a href='#home' class='nav__link'>
+                <li>
+                  <Link className='nav__link' to='/'>
                     Presentation
-                  </a>
+                  </Link>
                 </li>
-                <hr />
-                <li class='nav__item'>
-                  <a href='#about' class='nav__link'>
+                <li>
+                  <Link className='nav__link' to='/coordonnees'>
                     Coordonnées
-                  </a>
+                  </Link>
                 </li>
-                <hr />
-                <li class='nav__item'>
-                  <a href='#skills' class='nav__link'>
-                    Compétences
-                  </a>
+                <li>
+                  <Link className='nav__link' to='/competences'>
+                    Competences
+                  </Link>
                 </li>
-                <hr />
                 <li class='nav__item'>
                   <a href='#projects' class='nav__link'>
                     Projets
                   </a>
                 </li>
-                <hr />
                 <li class='nav__item'>
                   <a href='#hobbies' class='nav__link'>
                     Hobbies
                   </a>
                 </li>
-                <hr />
                 <li class='nav__item'>
                   <a href='#form' class='nav__link'>
                     Formulaire
                   </a>
                 </li>
-                <hr />
               </ul>
+              </div>
             </nav>
           </header>
         </div>
       </div>
-    </div>
   );
 };
 export default Menu;
