@@ -17,15 +17,18 @@ import Competences from './components/Competences';
 import Projets from './components/Projets';
 import Hobbies from './components/Hobbies';
 import Formulaire from './components/Formulaire';
+import Music from './components/Music';
 /* <--------------- Importation CSS -----------------> */
 import './css/App.css';
 import './css/index.css';
+import './css/style.css';
 
 export default class App extends Component {
   render() {
     return (
-      <Router>
-        <div className='App'>
+      <div className='App'>
+        <Music />
+        <Router>
           <Menu />
           <Switch>
             <Route exact path='/' component={Presentation} />
@@ -35,9 +38,9 @@ export default class App extends Component {
             <Route exact path='/hobbies' component={Hobbies} />
             <Route exact path='/formulaire' component={Formulaire} />
           </Switch>
-        </div>
-        <Footer />
-      </Router>
+          <Footer />
+        </Router>
+      </div>
     );
   }
 }

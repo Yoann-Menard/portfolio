@@ -1,8 +1,5 @@
 import React from 'react';
 import cv from '../assets/cv/CV_Menard_Yoann.pdf';
-import github from '../assets/logo/github.png';
-import gitlab from '../assets/logo/gitlab.png';
-import linkedin from '../assets/logo/linkedin.png';
 
 const Coordonnees = () => {
   return (
@@ -10,7 +7,7 @@ const Coordonnees = () => {
 
     <div className='Coordonnees'>
       <section class='about-me' id='about'>
-        <h2 class='section__title section__title--about'>Coordonnées</h2>
+          <h2 class='section__title section__title--about'>Coordonnées</h2>
         <div class='about'>
           <div class='about-profile'>
             <h5 class='name'>Nom: Yoann Menard</h5>

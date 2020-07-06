@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "P5hatty";
+    src: url(../fonts/p5hatty.ttf);
+}
+
+@font-face {
+    font-family: "earwig-factory";
+    src: url(../fonts/earwig-factory.ttf);
+}
+
 .one-half\ column {
     margin-top: 25%;
+    background-image: url('../assets/wallpapers/persona5_pattern.jpg');
+    background-position: top;
+}
+
+body {
+    font-family: 'p5hatty';
+    font-size: 25px;
+    overflow-y: hidden !important;
+    background-image: url('../assets/wallpapers/persona5_pattern.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(red, green, blue);
 }
