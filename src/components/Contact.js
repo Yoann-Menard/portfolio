@@ -17,7 +17,7 @@ export default function Contact() {
 					alert('Votre message a été envoyé avec succès 🙂');
 				},
 				(error) => {
-					alert('Échec de l\'envoi du message 😢');
+					alert("Échec de l'envoi du message 😢");
 				}
 			);
 	}
@@ -29,9 +29,9 @@ export default function Contact() {
 				onSubmit={sendEmail}
 			>
 				<div className='row blue-text'>
-					<h5>
-						<strong>Me contacter</strong>
-					</h5>
+					<h2>
+						<em class='contact-earwig'>Me contacter</em>
+					</h2>
 				</div>
 				<br />
 				<div className='row'>
@@ -58,7 +58,7 @@ export default function Contact() {
 						<label htmlFor='icon_telephone'>Telephone</label>
 					</div>
 
-					<div className='input-field col s12 l12 materialize red-text'>
+					<div className='input-field col s12 l12 materialize grey-text'>
 						<i className='material-icons prefix'>email</i>
 						<input
 							id='icon_email'
@@ -86,9 +86,11 @@ export default function Contact() {
 					<button
 						class='waves-effect waves-light btn-large btn-large pulse'
 						type='submit'
-						name='action'>Envoyer
+						name='action'
+					>
+						Envoyer
 						<i class='material-icons right'>send</i>
-						</button>
+					</button>
 				</div>
 			</form>
 		</div>

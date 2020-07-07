@@ -12,7 +12,7 @@ body {
 	flex-direction: column;
 	font-family: arial, earwig-factory, p5hatty;
 	font-size: 20px;
-	font-weight: lighter;
+	font-weight: bolder;
 	overflow-y: hidden !important;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -22,21 +22,20 @@ body {
 
 .Presentation {
 	font-family: arial;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5_menu_3.jpg');
+	background: url('../assets/wallpapers/persona5_menu_3.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	height: 61vh;
+	height: 60vh;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .Coordonnees {
 	font-family: arial;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5_2.png');
+	background: url('../assets/wallpapers/persona5_2.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -44,12 +43,22 @@ body {
 	background-position: center;
 	height: 100vh !important;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
+}
+
+em {
+    font-family: earwig-factory;
+    color: white;
+}
+
+.contact-earwig {
+    font-family: earwig-factory;
+    color: fuchsia;
 }
 
 .Competences {
 	font-family: arial;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5.jpg');
+	background: url('../assets/wallpapers/persona5.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -57,6 +66,7 @@ body {
 	background-position: center;
 	height: 100vh !important;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .Projets {
@@ -69,6 +79,7 @@ body {
 	background-position: center;
 	height: 100vh !important;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .Hobbies {
@@ -82,20 +93,26 @@ body {
 	background-position: center;
 	height: 100vh !important;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .Contact {
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5_pattern.jpg');
+	font-family: cursive;
+	background: url('../assets/wallpapers/persona5_pattern.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	height: 61vh;
+	height: 60vh;
 	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .Footer {
+	margin-bottom: 20px;
 	overflow: auto;
+	height: 60vh;
+	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }

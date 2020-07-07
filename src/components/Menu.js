@@ -21,21 +21,21 @@ const Menu = () => {
               <ul class='nav__list'>
                 <li>
                   <Link className='nav__link' to='/'>
-                    Presentation
+                    Présentation
                   </Link>
                 </li>
                 <li>
-                  <Link className='nav__link' to='/coordonnees'>
+                  <Link className='nav__link' to='/about'>
                     Coordonnées
                   </Link>
                 </li>
                 <li>
-                  <Link className='nav__link' to='/competences'>
+                  <Link className='nav__link' to='/skills'>
                     Compétences
                   </Link>
                 </li>
                 <li>
-                  <Link className='nav__link' to='/projets'>
+                  <Link className='nav__link' to='/projects'>
                     Projets
                   </Link>
                 </li>

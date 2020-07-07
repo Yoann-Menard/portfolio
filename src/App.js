@@ -33,9 +33,9 @@ export default class App extends Component {
           <Menu />
           <Switch>
             <Route exact path='/' component={Presentation} />
-            <Route exact path='/coordonnees' component={Coordonnees} />
-            <Route exact path='/competences' component={Competences} />
-            <Route exact path='/projets' component={Projets} />
+            <Route exact path='/about' component={Coordonnees} />
+            <Route exact path='/skills' component={Competences} />
+            <Route exact path='/projects' component={Projets} />
             <Route exact path='/hobbies' component={Hobbies} />
             <Route exact path='/contact' component={Contact} />
           </Switch>
