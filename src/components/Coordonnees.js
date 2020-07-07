@@ -6,7 +6,7 @@ const Coordonnees = () => {
     /* <!-- Coordonnees --> */
     <div className='Coordonnees'>
       <section class='about-me' id='about'>
-          <h2 class='section__title section__title--about black-text'><em>Coordonnées</em></h2>
+          <h2 class='section__title section__title--about white-text'><em>Coordonnées</em></h2>
         <div class='about'>
           <div class='about-profile'>
         <div class='card-panel transparent'>
@@ -70,7 +70,7 @@ const Coordonnees = () => {
 
           <div class='about-profile-cv'>
             <a
-              class='waves-effect waves-light btn-large btn-large pulse pink'
+              class='waves-effect waves-light btn-large btn-large pulse blue'
               href={cv}
               target='__blank'
               rel='noopener noreferrer'

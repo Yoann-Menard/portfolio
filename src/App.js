@@ -16,7 +16,7 @@ import Coordonnees from './components/Coordonnees';
 import Competences from './components/Competences';
 import Projets from './components/Projets';
 import Hobbies from './components/Hobbies';
-import Formulaire from './components/Formulaire';
+import Contact from './components/Contact';
 import Music from './components/Music';
 /* <--------------- Importation CSS -----------------> */
 import './css/App.css';
@@ -37,7 +37,7 @@ export default class App extends Component {
             <Route exact path='/competences' component={Competences} />
             <Route exact path='/projets' component={Projets} />
             <Route exact path='/hobbies' component={Hobbies} />
-            <Route exact path='/formulaire' component={Formulaire} />
+            <Route exact path='/contact' component={Contact} />
           </Switch>
           <Footer />
         </Router>

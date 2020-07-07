@@ -45,8 +45,8 @@ const Menu = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav__link" to='/formulaire'>
-                    Formulaire
+                  <Link className="nav__link" to='/contact'>
+                    Contact
                   </Link>
                 </li>
               </ul>

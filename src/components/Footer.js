@@ -24,6 +24,7 @@ const Footer = () => {
               <div class='col l4 offset-l2 s12'>
                 <h5 class='white-text'>Social</h5>
                 <ul>
+                  <br />
                   <li>
                     <a href='https://github.com/yoann-menard'>@GitHub</a>
                     <a
