@@ -31,7 +31,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link className='nav__link' to='/competences'>
-                    Competences
+                    Compétences
                   </Link>
                 </li>
                 <li>

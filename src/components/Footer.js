@@ -11,10 +11,15 @@ const Footer = () => {
           <div class='container'>
             <div class='row'>
               <div class='col l6 s12'>
-                <h5 class='white-text'>Footer Content</h5>
-                <p class='grey-text text-lighten-4'>
-                  lorem ipsum dolor sit amet
+                <h5 class='red-text text-accent-5'>Credits</h5>
+                <h6 class='yellow-text'>Fonts</h6>
+                <p class='blue-text text-bolder'>
+                  earwig-factory,
+                  <br />
+                  p5hatty
                 </p>
+                <h6 class='black-text'>Music</h6>
+                <p class='grey-text'>Layer Cake - Persona 5</p>
               </div>
               <div class='col l4 offset-l2 s12'>
                 <h5 class='white-text'>Social</h5>

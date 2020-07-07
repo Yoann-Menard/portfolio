@@ -4,7 +4,7 @@ const Competences = () => {
   return (
     /* <!-- Competences --> */
     <div className='Competences'>
-
+      
     </div>
   );
 };

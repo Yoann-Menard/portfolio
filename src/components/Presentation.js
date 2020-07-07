@@ -10,25 +10,28 @@ const Presentation = () => {
       </div>
       <section class='Presentation' id='intro'>
         <div class='col s2'>
-          <img src={Yoann}  width = "90" alt='Yoann Epitech' class=' circle responsive-img' />
+          <img src={Yoann}  alt='Yoann Epitech' class=' circle responsive-img' />
         </div>
 
         <div class='card-panel transparent' >
-        <span class="white bolder-text">
+        <h1>
+        <span class='red-text accent-5'>
           <strong>Bonjour et bienvenue dans mon portfolio !</strong>
           </span>
           <br />
+          </h1>
         </div>
         <div class='card-panel transparent'>
         <h5>
-        <span class="white bolder-text">
+        <span class='yellow-text'>
           <strong>je m'appelle Yoann Menard</strong>
           </span>
+          <br />
         </h5>
         </div>
         <br />
-        <div class='card-panel white'>
-         <span class="white bolder-text">
+        <div class='card-panel transparent'>
+         <span class='blue-text'>
         <p class='section__subtitle section__subtitle--intro'>
           <strong>Je suis étudiant en développement web Front-end/Backend au Samsung campus situé à 
            <br />
