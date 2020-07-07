@@ -21,6 +21,7 @@ import Music from './components/Music';
 /* <--------------- Importation CSS -----------------> */
 import './css/App.css';
 import './css/index.css';
+import './css/normalize.css'
 import './css/style.css';
 
 export default class App extends Component {

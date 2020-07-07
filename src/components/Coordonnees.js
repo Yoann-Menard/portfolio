@@ -55,7 +55,7 @@ const Coordonnees = () => {
 
           <div class='about-profile-cv'>
             <a
-              class='waves-effect waves-light btn-small'
+              class='waves-effect waves-light btn-large btn-large pulse pink'
               href={cv}
               target='__blank'
               rel='noopener noreferrer'
@@ -64,6 +64,7 @@ const Coordonnees = () => {
               Telecharger mon CV<em class='button-cv'></em>
             </a>
           </div>
+          <br />
         </div>
       </section>
     </div>

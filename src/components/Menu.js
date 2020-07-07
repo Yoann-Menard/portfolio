@@ -7,9 +7,6 @@ import {
   useRouteMatch,
   useParams,
 } from 'react-router-dom';
-import '../css/style.css';
-import '../assets/logo/github.png';
-import '../assets/logo/linkedin.png';
 
 const Menu = () => {
   return (
@@ -19,7 +16,7 @@ const Menu = () => {
     <div className='Menu'>
       <div class='one-half column'>
         <header>
-          <nav class='nav'>
+          <nav class='nav red'>
             <div class='nav-wrapper'>
               <ul class='nav__list'>
                 <li>
@@ -37,27 +34,27 @@ const Menu = () => {
                     Competences
                   </Link>
                 </li>
-                <li class='nav__item'>
-                  <a href='#projects' class='nav__link'>
+                <li>
+                  <Link className='nav__link' to='/projets'>
                     Projets
-                  </a>
+                  </Link>
                 </li>
-                <li class='nav__item'>
-                  <a href='#hobbies' class='nav__link'>
+                <li>
+                  <Link className="nav__link" to='/hobbies'>
                     Hobbies
-                  </a>
+                  </Link>
                 </li>
-                <li class='nav__item'>
-                  <a href='#form' class='nav__link'>
+                <li>
+                  <Link className="nav__link" to='/formulaire'>
                     Formulaire
-                  </a>
+                  </Link>
                 </li>
               </ul>
-              </div>
-            </nav>
-          </header>
-        </div>
+            </div>
+          </nav>
+        </header>
       </div>
+    </div>
   );
 };
 export default Menu;

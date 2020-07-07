@@ -8,19 +8,22 @@
     src: url(../fonts/earwig-factory.ttf);
 }
 
-.one-half\ column {
-    margin-top: 25%;
-    background-image: url('../assets/wallpapers/persona5_pattern.jpg');
-    background-position: top;
-}
 
 body {
-    font-family: 'p5hatty';
+    
+    flex-direction: column;
+    font-family: earwig-factory, p5hatty, arial;
     font-size: 25px;
+    font-weight: lighter;
     overflow-y: hidden !important;
-    background-image: url('../assets/wallpapers/persona5_pattern.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url('../assets/wallpapers/persona5_pattern.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(red, green, blue);
+    text-overflow: clip;
+    color: taupe;
 }
