@@ -1,5 +1,5 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 export default function Contact() {
 	function sendEmail(e) {
@@ -14,21 +14,21 @@ export default function Contact() {
 			)
 			.then(
 				(result) => {
-					console.log(result.text);
+					alert('Votre message a été envoyé avec succès 🙂');
 				},
 				(error) => {
-					console.log(error.text);
+					alert('Échec de l\'envoi du message 😢');
 				}
 			);
 	}
 
 	return (
-		<div className="Contact">
+		<div className='Contact'>
 			<form
 				className='contact-form form-contact white-font'
 				onSubmit={sendEmail}
 			>
-				<div className='row yellow-text'>
+				<div className='row blue-text'>
 					<h5>
 						<strong>Me contacter</strong>
 					</h5>
@@ -83,7 +83,12 @@ export default function Contact() {
 				</div>
 
 				<div className='row'>
-					<input type='submit' value='Envoyer' className='center' />
+					<button
+						class='waves-effect waves-light btn-large btn-large pulse'
+						type='submit'
+						name='action'>Envoyer
+						<i class='material-icons right'>send</i>
+						</button>
 				</div>
 			</form>
 		</div>
