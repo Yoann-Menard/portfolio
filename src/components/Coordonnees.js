@@ -42,36 +42,36 @@ const Coordonnees = () => {
 								Date de naissance: 21 septembre 1999
 							</span>
 						</h5>
-          </div>
-          <br />
+					</div>
+					<br />
 
-          <div class='about-profile'>
-            <br />
-							<h5 class='address'>
-								<span class='materialize white-text'>
-									Adresse: 52 Rue Louis Faussard, 60890 Neufchelles
-								</span>
-							</h5>
-          </div>
-          <br />
+					<div class='about-profile'>
+						<br />
+						<h5 class='address'>
+							<span class='materialize white-text'>
+								Adresse: 52 Rue Louis Faussard, 60890 Neufchelles
+							</span>
+						</h5>
+					</div>
+					<br />
 
-          <div class='about-profile'>
-            <br />
-							<h5 class='Nationality'>
-								<span class='materialize pink-text'>Nationalité: française</span>
-							</h5>
-          </div>
-          <br />
+					<div class='about-profile'>
+						<br />
+						<h5 class='Nationality'>
+							<span class='materialize pink-text'>Nationalité: française</span>
+						</h5>
+					</div>
+					<br />
 
 					<div class='about-profile-cv'>
 						<a
-							class='waves-effect waves-light btn-large btn-large pulse blue'
+							class='waves-effect waves-light btn-large pulse blue'
 							href={cv}
 							target='__blank'
 							rel='noopener noreferrer'
 							download
 						>
-							Telecharger mon CV<em class='button-cv'></em>
+							Telecharger mon CV
 						</a>
 					</div>
 				</div>

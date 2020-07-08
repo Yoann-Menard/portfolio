@@ -15,103 +15,110 @@ const Competences = () => {
 			<h4>
 				<em class='competences-earwig'>Compétences</em>
 			</h4>
-			<div classname='row'>
-				<div className='col s12'>
-					<div className='card-home overflow-hidden'>
-						<div className='card-content center-when-small'>
-							<div className='row'></div>
-							<ul className='col 16 m6 s6'>
-								<li className='language orange-text'>
-									<img alt='html logo' className='language-icon' src={html5} />
-									HTML5
-								</li>
-								<li className='language blue-text'>
-									<img alt='css logo' className='language-icon' src={css3} />
-									CSS3
-								</li>
-								<li className='language yellow-text'>
-									<img
-										alt='javascript logo'
-										className='language-icon'
-										src={js}
-									/>
-									Javascript
-								</li>
+			<div className='col s12'>
+				<div className='card-home overflow-hidden'>
+					<div className='card-content center-when-small'>
+						<ul className='col 16 m6 s6'>
+							<li className='language orange-text'>
+								<img alt='html logo' className='language-icon' src={html5} />
+								HTML5
+							</li>
+							<li className='language blue-text'>
+								<img alt='css logo' className='language-icon' src={css3} />
+								CSS3
+							</li>
+							<li className='language yellow-text'>
+								<img alt='javascript logo' className='language-icon' src={js} />
+								Javascript
+							</li>
 
-								<li className='language orange-text text-accent-4'>
-									<img
-										alt='laravel logo'
-										className='language-icon'
-										src={laravel}
-									/>
-									Laravel
-								</li>
-							</ul>
+							<li className='language orange-text text-accent-4'>
+								<img
+									alt='laravel logo'
+									className='language-icon'
+									src={laravel}
+								/>
+								Laravel
+							</li>
+						</ul>
 
-							<ul className='col l6 m6 s6'>
-								<li className='language grey-text'>
-									<img alt='PHP logo' className='language-icon' src={php} />
-									PHP
-								</li>
-								<li className='language light-blue-text'>
-									<img
-										alt='React logo'
-										className='language-icon'
-										src={reactjs}
-									/>
-									ReactJS
-								</li>
-								<li className='language light-green-text'>
-									<img alt='MySQL logo' className='language-icon' src={mysql} />
-									MySQL
-								</li>
-								<li className='language white-text'>
-									<img
-										alt='Symfony logo'
-										className='language-icon'
-										src={symfony}
-									/>
-									Symfony
-								</li>
-							</ul>
+						<ul className='col l6 m6 s6'>
+							<li className='language grey-text'>
+								<img alt='PHP logo' className='language-icon' src={php} />
+								PHP
+							</li>
+							<li className='language light-blue-text'>
+								<img alt='React logo' className='language-icon' src={reactjs} />
+								ReactJS
+							</li>
+							<li className='language light-green-text'>
+								<img alt='MySQL logo' className='language-icon' src={mysql} />
+								MySQL
+							</li>
+							<li className='language white-text'>
+								<img
+									alt='Symfony logo'
+									className='language-icon'
+									src={symfony}
+								/>
+								Symfony
+							</li>
+						</ul>
 
-							<div className='formation'>
-								<div className='row'>
-									<h3>
-										<em>Formation</em>
-									</h3>
-								</div>
-							</div>
+						<div className='diplome'>
+							<h3>
+								<em>Diplôme</em>
+							</h3>
+							<a
+								class='bep-link'
+								href={bep}
+								target='__blank'
+								rel='noopener noreferrer'
+							>
+								<img alt='bep Yoann Menard' width='400' src={bep}></img>
+							</a>
+						</div>
 
-							<div className='experiences professionnels'>
-								<div className='row'>
-									<h3>
-										<em class='green-text'>Expériences professionnel</em>
-									</h3>
-									<b class='blue-text'>2015-2016 (5 semaines)</b>
-									<p class='red-text'>
-                    (UMA) Usinage Mécanique de l'aisne Neuilly-Saint-Front
-                    perçage de pièces
-									</p>
-                  <b class='pink-text'></b>
-									<p class='yellow-text'>
-										(PSD) Paris Saint Denis Aciers Le Plessis Belleville
-										Marquage par micro percussion
-									</p>
-									<p class='blue-text'>
-										Baudoin SAS Mareuil-lès Meaux Taraudage, Filetage et
-										utilisation du logiciel Solidworks
-									</p>
-								</div>
-							</div>
+						<div className='formation'>
+							<h3>
+								<em>Formation</em>
+							</h3>
+							<b class='blue-text'>2019-2021</b>
+							<p class='red-text'>
+								« Web & Apps Coding » : Intégrateur-développeur web –Full Stack
+								(Bac+2) Samsung Campus -Epitceh–Saint-Ouen
+							</p>
+							<b class='yellow-text'>2015-2018</b>
+							<p class='green-text'>
+								Lycée Robert Desnos Crépy en Valois Bac Pro Technicien d'usinage
+							</p>
 
-							<div className='diplome'>
-								<div className='row'>
-									<h3>
-										<em>Diplôme</em>
-									</h3>
-								</div>
-							</div>
+							<b class='red-text'>2015</b>
+							<p class='blue-text'>
+								Lycée Polyvalent Jules Verne Château-Thierry Bac Pro Systèmes
+								Électroniques Numérique
+							</p>
+						</div>
+
+						<div className='experiences professionnels'>
+							<h3>
+								<em class='text'>Expériences professionnel</em>
+							</h3>
+							<b class='blue-text'>2015-2016 (5 semaines)</b>
+							<p class='red-text'>
+								(UMA) Usinage Mécanique de l'aisne Neuilly-Saint-Front perçage
+								de pièces
+							</p>
+							<b class='green-text'>2016-2017 (6 semaines)</b>
+							<p class='yellow-text'>
+								(PSD) Paris Saint Denis Aciers Le Plessis Belleville Marquage
+								par micro percussion
+							</p>
+							<b class='orange-text'>2017-2018 (5 Semaines)</b>
+							<p class='blue-text'>
+								Baudoin SAS Mareuil-lès Meaux Taraudage, Filetage et utilisation
+								du logiciel Solidworks
+							</p>
 						</div>
 					</div>
 				</div>

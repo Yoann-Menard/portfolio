@@ -53,14 +53,21 @@ em {
 
 .contact-earwig {
 	font-family: earwig-factory;
-	color: fuchsia;
+	color: gold;
 }
 
 .competences-earwig {
-    font-family : earwig-factory;
-    color: lightgoldenrodyellow;
-    font-weight: 10;
-    font-size: larger;
+	font-family: earwig-factory;
+	color: lightgoldenrodyellow;
+	font-weight: 10;
+	font-size: larger;
+}
+
+.hobbies-earwig {
+	font-family: earwig-factory;
+	color: lightgoldenrodyellow;
+	font-weight: 10;
+	font-size: larger;
 }
 
 .Competences {
@@ -72,8 +79,9 @@ em {
 	background-size: cover;
 	background-position: center;
 	height: 100vh !important;
-	overflow-y: hidden !important;
+	overflow-y: auto !important;
 	overflow-x: hidden !important;
+	font-size: 15px;
 }
 
 .card-home {
@@ -82,30 +90,30 @@ em {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    position: relative;
-    padding-bottom: 1px;
+	position: relative;
+	padding-bottom: 1px;
 }
 
 .card {
 	margin: 5% 10% 20% 10%;
-    height: 75vh;
+	height: 75vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    position: inherit;
+	position: inherit;
 }
 
 .language {
-    align-items: center;
-    display: inline-block;
-    padding: 10px;
+	align-items: center;
+	display: inline-block;
+	padding: 10px;
 }
 
 .language-icon {
-    margin-bottom: 10px;
-    height: 50px;
-    min-width: 16px;
-    padding-bottom: 11px;
+	margin-bottom: 10px;
+	height: 50px;
+	min-width: 16px;
+	padding-bottom: 11px;
 }
 
 @media screen and (max-width: 605px) {
@@ -122,8 +130,7 @@ em {
 }
 
 .Projets {
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5_calendar.png');
+	background: url('../assets/wallpapers/persona5_calendar.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -136,8 +143,7 @@ em {
 
 .Hobbies {
 	font-family: arial;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-		url('../assets/wallpapers/persona5_menu_3.jpg');
+	background: url('../assets/wallpapers/persona5_menu_3.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -146,6 +152,24 @@ em {
 	height: 100vh !important;
 	overflow-y: hidden !important;
 	overflow-x: hidden !important;
+}
+
+.computer-container {
+	display: inline;
+}
+
+.first-computer {
+	display: inherit;
+	padding: 10px;
+}
+
+.my-computer {
+	display: inherit;
+	padding: 10px;
+}
+
+.paragraph-dkc2 {
+	font-size: 14px;
 }
 
 .Contact {
