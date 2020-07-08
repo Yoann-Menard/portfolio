@@ -22,7 +22,7 @@ const Presentation = () => {
 
 				<div class='material yellow-text'>
 					<h5>
-						<strong>je m'appelle Yoann Menard</strong>
+						<strong>Je m'appelle Yoann Menard.</strong>
 					</h5>
 				</div>
 				<br />
@@ -33,7 +33,7 @@ const Presentation = () => {
 							Je suis étudiant en développement web Front-end/Back-end au
 							Samsung campus situé à
 							<br />
-							Paris 12 Rue Fructidor 75017, Saint-Ouen{' '}
+							Paris 12 Rue Fructidor 75017, Saint-Ouen.{' '}
 						</strong>
 					</p>
 				</div>

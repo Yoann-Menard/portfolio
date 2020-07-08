@@ -71,7 +71,7 @@ const Coordonnees = () => {
 							rel='noopener noreferrer'
 							download
 						>
-							Telecharger mon CV
+							Télecharger mon CV
 						</a>
 					</div>
 				</div>

@@ -75,7 +75,7 @@ const Competences = () => {
 								target='__blank'
 								rel='noopener noreferrer'
 							>
-								<img alt='bep Yoann Menard' width='400' src={bep}></img>
+								<img alt='bep Yoann Menard' width='270' src={bep}></img>
 							</a>
 						</div>
 
@@ -100,9 +100,9 @@ const Competences = () => {
 							</p>
 						</div>
 
-						<div className='experiences professionnels'>
+						<div className='experiences professionnelles'>
 							<h3>
-								<em class='text'>Expériences professionnel</em>
+								<em class='text'>Expériences professionnelles</em>
 							</h3>
 							<b class='blue-text'>2015-2016 (5 semaines)</b>
 							<p class='red-text'>
