@@ -45,22 +45,14 @@ body {
 	overflow-y: hidden !important;
 	overflow-x: hidden !important;
 }
-
-em {
-	font-family: earwig-factory;
-	color: white;
-}
-
 .contact-earwig {
 	font-family: earwig-factory;
 	color: gold;
 }
 
-.competences-earwig {
+em {
 	font-family: earwig-factory;
-	color: lightgoldenrodyellow;
-	font-weight: 10;
-	font-size: larger;
+	color: white;
 }
 
 .hobbies-earwig {
@@ -69,7 +61,6 @@ em {
 	font-weight: 10;
 	font-size: larger;
 }
-
 .Competences {
 	font-family: arial;
 	background: url('../assets/wallpapers/persona5.jpg');
@@ -83,24 +74,11 @@ em {
 	overflow-x: hidden !important;
 	font-size: 15px;
 }
-
-.card-home {
-	margin: 5% 20% 20% 20% !important;
-	height: 75vh !important;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	padding-bottom: 1px;
-}
-
-.card {
-	margin: 5% 10% 20% 10%;
-	height: 75vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: inherit;
+.competences-earwig {
+	font-family: earwig-factory;
+	color: lightgoldenrodyellow;
+	font-weight: 10;
+	font-size: larger;
 }
 
 .language {
@@ -116,19 +94,6 @@ em {
 	padding-bottom: 11px;
 }
 
-@media screen and (max-width: 605px) {
-	.card {
-		margin: 18% 5% 5% !important;
-		height: 80vh !important;
-	}
-	.language-icon {
-		max-width: 30px;
-	}
-	.hide-when-small {
-		display: none !important;
-	}
-}
-
 .Projets {
 	background: url('../assets/wallpapers/persona5_calendar.png');
 	-webkit-background-size: cover;
@@ -137,8 +102,9 @@ em {
 	background-size: cover;
 	background-position: center;
 	height: 100vh !important;
-	overflow-y: hidden !important;
+	overflow-y: auto !important;
 	overflow-x: hidden !important;
+	font-size: 14px;
 }
 
 .Hobbies {
@@ -150,8 +116,81 @@ em {
 	background-size: cover;
 	background-position: center;
 	height: 100vh !important;
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+
+.Contact {
+	font-family: cursive;
+	background: url('../assets/wallpapers/persona5_pattern.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
 	overflow-y: hidden !important;
 	overflow-x: hidden !important;
+}
+
+.Footer {
+	margin-bottom: 40px;
+	overflow: auto;
+	height: 60vh;
+	overflow-y: hidden !important;
+	overflow-x: hidden !important;
+}
+
+.card {
+	margin: 5% 10% 20% 10%;
+	height: 175vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: inherit;
+}
+
+.card-skills {
+	margin: 5% 20% 20% 20% !important;
+	height: 110vh !important;
+	background-color: rgba(8, 6, 6, 0.8);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.card-hobbies {
+	margin: 5% 20% 20% 20% !important;
+	height: 110vh !important;
+	background-color: rgba(8, 6, 6, 0.8);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.card-projects {
+	margin: 5% 20% 20% 20% !important;
+	height: 140vh !important;
+	background-color: rgba(8, 6, 6, 0.8);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+@media screen and (max-width: 605px) {
+	.card {
+		margin: 18% 5% 5% !important;
+		height: 80vh !important;
+	}
+	.language-icon {
+		max-width: 30px;
+	}
+	.hide-when-small {
+		display: none !important;
+	}
 }
 
 .computer-container {
@@ -170,25 +209,4 @@ em {
 
 .paragraph-dkc2 {
 	font-size: 14px;
-}
-
-.Contact {
-	font-family: cursive;
-	background: url('../assets/wallpapers/persona5_pattern.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	height: 60vh;
-	overflow-y: hidden !important;
-	overflow-x: hidden !important;
-}
-
-.Footer {
-	margin-bottom: 20px;
-	overflow: auto;
-	height: 60vh;
-	overflow-y: hidden !important;
-	overflow-x: hidden !important;
 }

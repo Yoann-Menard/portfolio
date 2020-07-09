@@ -16,7 +16,7 @@ const Competences = () => {
 				<em class='competences-earwig'>Compétences</em>
 			</h4>
 			<div className='col s12'>
-				<div className='card-home overflow-hidden'>
+				<div className='card-skills overflow-hidden'>
 					<div className='card-content center-when-small'>
 						<ul className='col 16 m6 s6'>
 							<li className='language orange-text'>
@@ -29,7 +29,7 @@ const Competences = () => {
 							</li>
 							<li className='language yellow-text'>
 								<img alt='javascript logo' className='language-icon' src={js} />
-								Javascript
+								JavaScript
 							</li>
 
 							<li className='language orange-text text-accent-4'>
