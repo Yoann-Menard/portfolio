@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51e9e484.chunk.css",
+    "main.js": "/static/js/main.b94f28f8.chunk.js",
+    "main.js.map": "/static/js/main.b94f28f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.7dce85fd.chunk.js": "/static/js/2.7dce85fd.chunk.js",
+    "static/js/2.7dce85fd.chunk.js.map": "/static/js/2.7dce85fd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4f62c84cb3ba1e69c3bc74b773125366.js": "/precache-manifest.4f62c84cb3ba1e69c3bc74b773125366.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.51e9e484.chunk.css.map": "/static/css/main.51e9e484.chunk.css.map",
+    "static/js/2.7dce85fd.chunk.js.LICENSE.txt": "/static/js/2.7dce85fd.chunk.js.LICENSE.txt",
+    "static/media/BEP.jpg": "/static/media/BEP.32525fda.jpg",
+    "static/media/CV_Menard_Yoann.pdf": "/static/media/CV_Menard_Yoann.dc88c9a5.pdf",
+    "static/media/css3.png": "/static/media/css3.20ee145f.png",
+    "static/media/donkey-kong-country-2-diddys-kong-quest.jpg": "/static/media/donkey-kong-country-2-diddys-kong-quest.00f08d0f.jpg",
+    "static/media/style.css": "/static/media/persona5_pattern.3ce34b5c.jpg",
+    "static/media/ecommerce.png": "/static/media/ecommerce.5fc4dd07.png",
+    "static/media/javascript.png": "/static/media/javascript.5416efb3.png",
+    "static/media/laravel.png": "/static/media/laravel.b0ba6d0d.png",
+    "static/media/mothers_day.png": "/static/media/mothers_day.9f3ae836.png",
+    "static/media/music.mp3": "/static/media/music.472857fb.mp3",
+    "static/media/my_computer.jpg": "/static/media/my_computer.dab5af9d.jpg",
+    "static/media/my_first_computer.jpg": "/static/media/my_first_computer.c070c582.jpg",
+    "static/media/mysql.png": "/static/media/mysql.5a2e509a.png",
+    "static/media/php.png": "/static/media/php.fed832f8.png",
+    "static/media/racingjs.png": "/static/media/racingjs.768f937c.png",
+    "static/media/reactjs.png": "/static/media/reactjs.a69125ed.png",
+    "static/media/symfony.png": "/static/media/symfony.fc5be179.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.7dce85fd.chunk.js",
+    "static/css/main.51e9e484.chunk.css",
+    "static/js/main.b94f28f8.chunk.js"
+  ]
+}

@@ -13,7 +13,7 @@ const Projets = () => {
 				<div className='card-projects white-text center-when-small'>
 					<h3 class='project-title purple-text'>Ecommerce</h3>
 					<a
-						href='https://master.d3l167e8112wd5.amplifyapp.com/'
+						href='https://master.d12wc7c8mihmqu.amplifyapp.com/'
 						target='__blank'
 						rel='noopener noreferrer'
 					>
@@ -38,7 +38,7 @@ const Projets = () => {
 
 					<h3 class='project-title orange-text'>Racingjs</h3>
 					<a
-						href='https://yoann-menard.github.io/racingjs/exercices/ex_01.html'
+						href='https://master.d3sf5yy1zin6rr.amplifyapp.com/exercices/ex_01.html'
 						target='__blank'
 						rel='noopener noreferrer'
 					>
