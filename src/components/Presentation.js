@@ -21,16 +21,19 @@ const Presentation = () => {
 				<br />
 
 				<div class='material yellow-text'>
-					<h5>
-						<strong>Je m'appelle Yoann Menard.</strong>
-					</h5>
+					<p>
+						<strong>
+							Je m'appelle Yoann Menard, je suis passionné par l'informatique
+							et les jeux vidéo.
+						</strong>
+					</p>
 				</div>
 				<br />
 
 				<div class='material blue-text'>
 					<p class='section__subtitle section__subtitle--intro'>
 						<strong>
-							Je suis étudiant en développement web Front-end/Back-end au
+							Je suis actuellement étudiant en développement web Front-end/Back-end au
 							Samsung campus situé à
 							<br />
 							Paris 12 Rue Fructidor 75017, Saint-Ouen.{' '}

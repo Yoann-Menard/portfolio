@@ -162,7 +162,7 @@ em {
 
 .card-hobbies {
 	margin: 5% 20% 20% 20% !important;
-	height: 110vh !important;
+	height: 150vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -208,5 +208,21 @@ em {
 }
 
 .paragraph-dkc2 {
+	font-size: 14px;
+}
+
+.paragraph-computer-science {
+	font-size: 14px;
+}
+
+.language-french {
+	font-size: 14px;
+}
+
+.language-english {
+	font-size: 14px;
+}
+
+.language-spanish {
 	font-size: 14px;
 }
