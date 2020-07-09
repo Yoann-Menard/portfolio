@@ -38,7 +38,7 @@ const Projets = () => {
 
 					<h3 class='project-title orange-text'>Racingjs</h3>
 					<a
-						href='https://master.d18gifqe5m5cno.amplifyapp.com/exercices/ex_01.html/'
+						href='https://yoann-menard.github.io/racingjs/exercices/ex_01.html'
 						target='__blank'
 						rel='noopener noreferrer'
 					>
@@ -50,8 +50,8 @@ const Projets = () => {
 						></img>
 					</a>
 					<p class='racingjs-paragraph'>
-						L'objectif de ce projet était de crée notre propre fonction JavaScript pour
-						manipuler le DOM
+						L'objectif de ce projet était de crée notre propre fonction
+						JavaScript pour manipuler le DOM
 						<br />
 						sans utiliser les fonctions JavaScript de base.
 						<br />
@@ -61,7 +61,7 @@ const Projets = () => {
 
 					<h3 class='personal-project-title pink-text'>Mother's day</h3>
 					<a
-						href='https://master.d3rqwub3zae1m3.amplifyapp.com/'
+						href='https://yoann-menard.github.io/mother-s_day/'
 						target='__blank'
 						rel='noopener noreferrer'
 					>
@@ -72,12 +72,16 @@ const Projets = () => {
 							src={mothersday}
 						></img>
 					</a>
-          <p>Un projet personnel que j'ai réalisé pour la fête des mères ce projet m'a aussi permis de revoir les bases du langage JavaScript
-          <br />
-          le site web contient plusieurs photos de mes chats avec deux boutons permettant d'afficher la photo suivante ou précédente
-          <br />
-          il y a aussi une musique de fond et chaque clics sur un bouton déclenche un son
-          </p>
+					<p>
+						Un projet personnel que j'ai réalisé pour la fête des mères ce
+						projet m'a aussi permis de revoir les bases du langage JavaScript
+						<br />
+						le site web contient plusieurs photos de mes chats avec deux boutons
+						permettant d'afficher la photo suivante ou précédente
+						<br />
+						il y a aussi une musique de fond et chaque clics sur un bouton
+						déclenche un son
+					</p>
 				</div>
 			</div>
 		</div>
