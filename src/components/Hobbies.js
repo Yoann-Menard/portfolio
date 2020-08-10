@@ -109,17 +109,17 @@ const Hobbies = () => {
 										<h4 className='Languages'>
 											<em>Langues</em>
 										</h4>
-										<p>
+										<h5>
 											<b class='language-french red-text'>Français(C2) - langue maternelle</b>
-										</p>
+										</h5>
 
-										<p>
+										<h5>
 											<b class='language-english yellow-text'>Anglais(C1)</b>
-										</p>
+										</h5>
 										
-										<p>
+										<h5>
 											<b class='language-spanish blue-text'>Espagnol(A1)</b>
-										</p>
+										</h5>
 									</div>
 								</div>
 							</li>
