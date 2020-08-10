@@ -13,7 +13,7 @@ const Menu = () => {
 						<div class='nav-wrapper'>
 							<ul class='nav__list'>
 								<li>
-									<Link className='nav__link' to='/'>
+									<Link className='nav__link' to='/portfolio'>
 										Présentation
 									</Link>
 								</li>
