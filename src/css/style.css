@@ -133,12 +133,24 @@ em {
 	overflow-x: hidden !important;
 }
 
+.contact-btn {
+	overflow-y: hidden;
+	margin: -20px;
+	height: 54px;
+}
+
 .Footer {
-	margin-bottom: 40px;
 	overflow: auto;
-	height: 60vh;
+	height: 100%;
 	overflow-y: hidden !important;
 	overflow-x: hidden !important;
+}
+
+.copyright {
+	margin: auto;
+	overflow: auto !important;
+	height: 30px;
+	line-height: 14px;
 }
 
 .card {
@@ -161,7 +173,7 @@ em {
 }
 .card-skills {
 	margin: 5% 20% !important;
-	height: 110vh !important;
+	height: 120vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -181,7 +193,7 @@ em {
 
 .card-projects {
 	margin: 5% 20% 20% 20% !important;
-	height: 180vh !important;
+	height: 200vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;

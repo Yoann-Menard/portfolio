@@ -73,7 +73,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div class='footer-copyright'>
-						<div class='container'>
+						<div class='copyright'>
 							© 2020 Copyright Yoann Menard
 						</div>
 					</div>

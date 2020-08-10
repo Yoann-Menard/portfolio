@@ -82,7 +82,7 @@ export default function Contact() {
 					</div>
 				</div>
 
-				<div className='row'>
+				<div className='contact-btn'>
 					<button
 						class='waves-effect waves-light btn-large btn-large pulse'
 						type='submit'

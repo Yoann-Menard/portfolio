@@ -25,7 +25,7 @@ export default class App extends Component {
 				<Router>
 					<Menu />
 					<Switch>
-						<Route exact path='/' component={Presentation} />
+						<Route exact path='/portfolio' component={Presentation} />
 						<Route exact path='/about' component={Coordonnees} />
 						<Route exact path='/skills' component={Competences} />
 						<Route exact path='/projects' component={Projets} />
