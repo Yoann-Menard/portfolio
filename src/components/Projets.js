@@ -2,6 +2,7 @@ import React from 'react';
 import ecommerce from '../assets/projets/ecommerce.png';
 import racingjs from '../assets/projets/racingjs.png';
 import mothersday from '../assets/projets/mothers_day.png';
+import secondyear from '../assets/projets/secondyear.png';
 
 const Projets = () => {
 	return (
@@ -30,10 +31,10 @@ const Projets = () => {
 						Composée d'une équipe de 9 personnes le but du projet était de crée
 						un site web
 						<br />
-						ecommerce avec les technologies React et laravel
+						ecommerce avec les technologies React et laravel.
 						<br />
 						L'utilisateur peut rechercher un modèle 3D d'une pièce qu'il
-						souhaite imprimer avec une imprimante 3D.
+						souhaite imprimer.
 					</p>
 
 					<h3 class='project-title orange-text'>Racingjs</h3>
@@ -51,11 +52,9 @@ const Projets = () => {
 					</a>
 					<p class='racingjs-paragraph'>
 						L'objectif de ce projet était de crée notre propre fonction
-						JavaScript pour manipuler le DOM
+						JavaScript afin de manipuler le DOM.
 						<br />
-						sans utiliser les fonctions JavaScript de base.
-						<br />
-						Ce projet est composé de plusieurs exercices permettant d'apprendre
+						Il est aussi composé de plusieurs exercices permettant d'apprendre
 						les fondamentaux du langage JavaScript.
 					</p>
 
@@ -74,14 +73,28 @@ const Projets = () => {
 					</a>
 					<p>
 						Un projet personnel que j'ai réalisé pour la fête des mères ce
-						projet m'a aussi permis de revoir les bases du langage JavaScript
+						projet m'a aussi permis de revoir les bases du langage JavaScript.
 						<br />
-						le site web contient plusieurs photos de mes chats avec deux boutons
-						permettant d'afficher la photo suivante ou précédente
+						Le site contient plusieurs photos de mes chats avec deux boutons
+						permettant l'affichage de la photo suivante ou précédente.
 						<br />
-						il y a aussi une musique de fond et chaque clics sur un bouton
-						déclenche un son
+						Il y a aussi une musique de fond et chaque clics sur un bouton
+						déclenche un son.
 					</p>
+
+					<h3 class='personal-project-title green-text'>2nd Year Project title here</h3>
+					<a 
+						href='localhost:404'
+						target='__blank'
+						rel='noopener noreferrer'
+						>
+							<img
+							alt="second year project"
+							width='500'
+							className='secondyearproject'
+							src={secondyear}
+							></img>
+						</a>
 				</div>
 			</div>
 		</div>

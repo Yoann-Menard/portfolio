@@ -150,8 +150,17 @@ em {
 	position: inherit;
 }
 
+.card-presentation {
+	margin: 5% 20% !important;
+	height: 42vh !important;
+	background-color: rgba(8, 6, 6, 0.8);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
 .card-skills {
-	margin: 5% 20% 20% 20% !important;
+	margin: 5% 20% !important;
 	height: 110vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
@@ -161,8 +170,8 @@ em {
 }
 
 .card-hobbies {
-	margin: 5% 20% 20% 20% !important;
-	height: 150vh !important;
+	margin: 5% 20% !important;
+	height: 130vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -172,7 +181,7 @@ em {
 
 .card-projects {
 	margin: 5% 20% 20% 20% !important;
-	height: 140vh !important;
+	height: 180vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;

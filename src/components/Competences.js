@@ -83,18 +83,18 @@ const Competences = () => {
 							<h3>
 								<em>Formation</em>
 							</h3>
-							<b class='blue-text'>2019-2021</b>
-							<p class='red-text'>
+							<b class='white-text'>2019-2021</b>
+							<p class='white-text'>
 								« Web & Apps Coding » : Intégrateur-développeur web –Full Stack
 								(Bac+2) Samsung Campus -Epitceh–Saint-Ouen
 							</p>
-							<b class='yellow-text'>2015-2018</b>
-							<p class='green-text'>
+							<b class='white-text'>2015-2018</b>
+							<p class='white-text'>
 								Lycée Robert Desnos Crépy en Valois Bac Pro Technicien d'usinage
 							</p>
 
-							<b class='red-text'>2015</b>
-							<p class='blue-text'>
+							<b class='white-text'>2015</b>
+							<p class='white-text'>
 								Lycée Polyvalent Jules Verne Château-Thierry Bac Pro Systèmes
 								Électroniques Numérique
 							</p>
@@ -104,18 +104,18 @@ const Competences = () => {
 							<h3>
 								<em class='text'>Expériences professionnelles</em>
 							</h3>
-							<b class='blue-text'>2015-2016 (5 semaines)</b>
-							<p class='red-text'>
+							<b class='white-text'>2015-2016 (5 semaines)</b>
+							<p class='white-text'>
 								(UMA) Usinage Mécanique de l'aisne Neuilly-Saint-Front perçage
 								de pièces
 							</p>
-							<b class='green-text'>2016-2017 (6 semaines)</b>
-							<p class='yellow-text'>
+							<b class='white-text'>2016-2017 (6 semaines)</b>
+							<p class='white-text'>
 								(PSD) Paris Saint Denis Aciers Le Plessis Belleville Marquage
 								par micro percussion
 							</p>
-							<b class='orange-text'>2017-2018 (5 Semaines)</b>
-							<p class='blue-text'>
+							<b class='white-text'>2017-2018 (5 Semaines)</b>
+							<p class='white-text'>
 								Baudoin SAS Mareuil-lès Meaux Taraudage, Filetage et utilisation
 								du logiciel Solidworks
 							</p>
