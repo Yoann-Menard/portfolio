@@ -69,7 +69,6 @@ const Coordonnees = () => {
 							href={cv}
 							target='__blank'
 							rel='noopener noreferrer'
-							download
 						>
 							Télecharger mon CV
 						</a>
