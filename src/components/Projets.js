@@ -2,7 +2,7 @@ import React from 'react';
 import ecommerce from '../assets/projets/ecommerce.png';
 import racingjs from '../assets/projets/racingjs.png';
 import mothersday from '../assets/projets/mothers_day.png';
-import secondyear from '../assets/projets/secondyear.png';
+import antcolonyorganization from '../assets/projets/ant_colony_organization.png';
 
 const Projets = () => {
 	return (
@@ -82,9 +82,9 @@ const Projets = () => {
 						déclenche un son.
 					</p>
 
-					<h3 class='personal-project-title green-text'>2nd Year Project title here</h3>
+					<h3 class='personal-project-title green-text'>Ant Colony Organization</h3>
 					<a 
-						href='localhost:404'
+						href='https://yoann-menard.github.io/ACO/'
 						target='__blank'
 						rel='noopener noreferrer'
 						>
@@ -92,9 +92,21 @@ const Projets = () => {
 							alt="second year project"
 							width='500'
 							className='secondyearproject'
-							src={secondyear}
+							src={antcolonyorganization}
 							></img>
 						</a>
+
+						<p>
+						Un projet d'initiation au Machine Learning et au Path Finding
+						<br />
+						l'objectif de ce projet était de réaliser un programme qui trouve le chemin le plus court
+						<br />
+						entre une position et une autre, en
+						simulant le fonctionnement ‘naturel’ d’une fourmilière.
+						<br />Algorithme : (ACO) Ant Colony Organization <br />
+						
+					</p>
+
 				</div>
 			</div>
 		</div>
