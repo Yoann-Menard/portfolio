@@ -46,17 +46,6 @@ export default function Contact() {
 						/>
 						<label htmlFor='icon_prefix'>Nom</label>
 					</div>
-					<div className='input-field col s12 l12 yellow-text text-accent-4'>
-						<i className='material-icons prefix'>phone</i>
-						<input
-							id='icon_telephone'
-							type='tel'
-							className='validate green-font'
-							name='contact_number'
-							required
-						/>
-						<label htmlFor='icon_telephone'>Telephone</label>
-					</div>
 
 					<div className='input-field col s12 l12 materialize grey-text'>
 						<i className='material-icons prefix'>email</i>
