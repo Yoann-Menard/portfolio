@@ -11,7 +11,7 @@ const Footer = () => {
 					<div class='container'>
 						<div class='row'>
 							<div class='col l6 s12'>
-								<h5 class='red-text text-accent-5'>Credits</h5>
+								<h5 class='white-text'>Credits</h5>
 								<h6 class='yellow-text'>Fonts</h6>
 								<p class='blue-text text-bolder'>
 									earwig-factory,
@@ -72,9 +72,9 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div class='footer-copyright'>
-						<div class='copyright'>
-							© 2020 Copyright Yoann Menard
+					<div className='footer-copyright'>
+						<div className='copyright'>
+							© 2025 Copyright Yoann Menard
 						</div>
 					</div>
 				</footer>

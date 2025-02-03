@@ -1,4 +1,6 @@
 import React from 'react';
+import bep from '../assets/diplôme/BEP.jpg';
+import rncp from '../assets/diplôme/RNCP.jpg';
 import css3 from '../assets/languages/css3.png';
 import html5 from '../assets/languages/html5.png';
 import js from '../assets/languages/javascript.png';
@@ -7,7 +9,6 @@ import mysql from '../assets/languages/mysql.png';
 import php from '../assets/languages/php.png';
 import reactjs from '../assets/languages/reactjs.png';
 import symfony from '../assets/languages/symfony.png';
-import bep from '../assets/diplôme/BEP.jpg';
 
 const Competences = () => {
 	return (
@@ -67,15 +68,23 @@ const Competences = () => {
 
 						<div className='diplome'>
 							<h3>
-								<em>Diplôme</em>
+								<em>Diplômes</em>
 							</h3>
 							<a
-								class='bep-link'
+								className='bep-link'
 								href={bep}
 								target='__blank'
 								rel='noopener noreferrer'
 							>
-								<img alt='bep Yoann Menard' width='270' src={bep}></img>
+								<img alt='bep Yoann Menard' src={bep}></img>
+							</a>
+							<a
+								className='rncp-link'
+								href={rncp}
+								target='__blank'
+								rel='noopener noreferrer'
+							>
+								<img alt='RNCP+5 Yoann Menard' src={rncp}></img>
 							</a>
 						</div>
 
@@ -83,12 +92,50 @@ const Competences = () => {
 							<h3>
 								<em>Formation</em>
 							</h3>
-							<b class='white-text'>2019-2021</b>
-							<p class='white-text'>
-								« Web & Apps Coding » : Intégrateur-développeur web –Full Stack
-								(Bac+2) Samsung Campus -Epitceh–Saint-Ouen
+
+							<b className='white-text'>2025-2026</b>
+							<p className='white-text'>
+								<a
+									className='language-link'
+									href='https://3wacademy.fr/3w-academy-pro/formation-en-alternance/formation-concepteur-developpeur-application'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									"Concepteur Développeur d'Applications" - 3W Academy
+									(Bac+3/Bac+4)
+									<br />
+									Formation en alternance (Actuellement sans contrat), domaine :
+									programmation orientée objet.
+								</a>
 							</p>
-							<b class='white-text'>2015-2018</b>
+
+							<b className='white-text'>2021 - 2022</b>
+							<p className='white-text'>
+								<a
+									className='language-link'
+									href='https://www.webacademie.org/la-formation/24-mois-pour-devenir-developpeur/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									"Intégrateur – Développeur Web – FullStack" | Web@CADEMIE |
+									Bac+2 (BTS, DUT ou équivalents) (NV3)
+								</a>
+							</p>
+
+							<b className='white-text'>2019 - 2021</b>
+							<p className='white-text'>
+								<a
+									className='language-link'
+									href='https://web.archive.org/web/20220331061251/https://campus.samsung.fr/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									"Intégrateur – Développeur Web – FullStack" (Bac+2) Samsung
+									Campus
+								</a>
+							</p>
+						</div>
+						{/* <b class='white-text'>2015-2018</b>
 							<p class='white-text'>
 								Lycée Robert Desnos Crépy en Valois Bac Pro Technicien d'usinage
 							</p>
@@ -97,27 +144,83 @@ const Competences = () => {
 							<p class='white-text'>
 								Lycée Polyvalent Jules Verne Château-Thierry Bac Pro Systèmes
 								Électroniques Numérique
-							</p>
-						</div>
+							</p> */}
+						{/* </div> */}
 
 						<div className='experiences professionnelles'>
 							<h3>
 								<em class='text'>Expériences professionnelles</em>
 							</h3>
-							<b class='white-text'>2015-2016 (5 semaines)</b>
+							<b class='red-text'>Octobre 2024 - Novembre 2024 (1 mois)</b>
 							<p class='white-text'>
-								(UMA) Usinage Mécanique de l'aisne Neuilly-Saint-Front perçage
-								de pièces
+								<strong>
+									Développeur Web (Immersion Professionnelle) | Cyberun
+									(Télétravail)
+								</strong>
 							</p>
-							<b class='white-text'>2016-2017 (6 semaines)</b>
 							<p class='white-text'>
-								(PSD) Paris Saint Denis Aciers Le Plessis Belleville Marquage
-								par micro percussion
+								- Ajout d'un composant <strong>Upload.tsx</strong> permettant
+								d'uploader un logo (format svg) de manière dynamique (exemple :
+								changer le titre de la solution contenue dans le logo)
 							</p>
-							<b class='white-text'>2017-2018 (5 Semaines)</b>
 							<p class='white-text'>
-								Baudoin SAS Mareuil-lès Meaux Taraudage, Filetage et utilisation
-								du logiciel Solidworks
+								- Technologie utilisée :{' '}
+								<strong>
+									React.js, TypeScript, JSON Forms, PHP, PostgreSQL
+								</strong>
+							</p>
+
+							<b class='red-text'>
+								{' '}
+								29 Juillet 2024 - 09 Août 2024 (2 semaines)
+							</b>
+							<p class='white-text'>
+								<strong>
+									Développeur Web (Immersion Professionnelle) | Zehome (8 Rue
+									Des Pirogues de Bercy, 75012 Paris)
+								</strong>
+							</p>
+							<p class='white-text'>
+								- Ajout d'une nouvelle page Location Vacances affichant tous les
+								biens Airbnb Zehome
+							</p>
+							<p class='white-text'>
+								- Application de la charte graphique{' '}
+								<strong>Zehome Immobilier</strong> et{' '}
+								<strong>Zehome Conciergerie</strong>
+							</p>
+							<p class='white-text'>
+								- Ajout d'un CMS (Listings) contenant les biens Airbnb Zehome
+							</p>
+							<p class='white-text'>
+								- Ajustement de plusieurs éléments de manière responsive
+							</p>
+							<p class='white-text'>
+								- Technologie utilisée : <strong>Webflow</strong>
+							</p>
+
+							<b class='red-text'>
+								27 Septembre 2021 - 18 Novembre 2022 (1 an et 2 mois)
+							</b>
+							<p class='white-text'>
+								<strong>
+									Développeur Full Stack (ALTERNANCE) | Troov (Neuilly sur
+									Seine)
+								</strong>
+							</p>
+							<p class='white-text'>
+								- Ajout de nouvelles fonctionnalités : Service Troov / Troov ton
+								créneau.
+							</p>
+							<p class='white-text'>
+								- Intégration maquette graphique (responsive) de la page
+								d'accueil
+							</p>
+							<p class='white-text'>- Correction de bugs</p>
+							<p class='white-text'>- Code Refactoring</p>
+							<p class='white-text'>
+								- Technologie utilisée :{' '}
+								<strong>Nuxt.js, Node.js, MongoDB</strong>
 							</p>
 						</div>
 					</div>

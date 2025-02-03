@@ -8,6 +8,36 @@
 	src: url(../fonts/earwig-factory.ttf);
 }
 
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideOut {
+	from {
+		transform: translateX(0);
+		opacity: 1;
+	}
+	to {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+}
+
+.page-enter {
+	animation: slideIn 0.5s forwards;
+}
+
+.page-exit {
+	animation: slideOut 0.5s forwards;
+}
+
 body {
 	flex-direction: column;
 	font-family: arial, earwig-factory, p5hatty;
@@ -81,6 +111,20 @@ em {
 	font-size: larger;
 }
 
+.diplome img {
+	height: 180px;
+	width: auto;
+	object-fit: contain;
+}
+
+.bep-link {
+	margin-right: 20px;
+}
+
+.rncp-link {
+	margin-left: 20px;
+}
+
 .language {
 	align-items: center;
 	display: inline-block;
@@ -148,8 +192,16 @@ em {
 .copyright {
 	margin: auto;
 	overflow: auto !important;
-	height: 30px;
-	line-height: 14px;
+	height: 600px;
+	line-height: 100%;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 600px;
+	line-height: 74px;
 }
 
 .card {
@@ -172,7 +224,7 @@ em {
 }
 .card-skills {
 	margin: 5% 20% !important;
-	height: 120vh !important;
+	height: 150vh !important;
 	background-color: rgba(8, 6, 6, 0.8);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -200,6 +252,15 @@ em {
 	position: relative;
 }
 
+.card-localisation {
+	margin: 5% 20% !important;
+	height: 80vh !important;
+	background-color: rgba(8, 6, 6, 0.561);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
 @media screen and (max-width: 605px) {
 	.card {
 		margin: 18% 5% 5% !important;
@@ -245,4 +306,35 @@ em {
 
 .language-spanish {
 	font-size: 14px;
+}
+
+.language a {
+	color: white;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.4s ease, transform 0.4s ease;
+}
+
+.language a::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #ff595e;
+	bottom: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.4s ease;
+}
+
+.language a:hover {
+	color: #ff595e;
+	transform: translateY(-2px);
+}
+
+.language a:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
