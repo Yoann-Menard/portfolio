@@ -39,9 +39,8 @@ const Presentation = () => {
 					<div class='material blue-text'>
 						<p class='section__subtitle section__subtitle--intro'>
 							<strong>
-								Je suis actuellement en formation **Concepteur Développeur
-								d'Applications** à la **3W Academy**. J'ai acquis de
-								l'expérience lors de plusieurs missions :
+								Je suis actuellement en formation Concepteur Développeur
+								d'Applications à la 3W Academy.
 							</strong>
 							{/* <strong>
 								Je suis actuellement étudiant en développement web
