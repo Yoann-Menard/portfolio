@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter as Router, Switch, useLocation } from 'react-router-dom';
+import {
+	Route,
+	BrowserRouter as Router,
+	Switch,
+	useLocation,
+} from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 /* <------------ Importation Components --------------> */
@@ -12,10 +17,10 @@ import Menu from './components/Menu';
 import Music from './components/Music';
 import Presentation from './components/Presentation';
 import Projets from './components/Projets';
+
 /* <--------------- Importation CSS -----------------> */
 import './css/App.css';
 import './css/index.css';
-import './css/normalize.css';
 import './css/style.css';
 import './css/transitions.css';
 
@@ -29,6 +34,7 @@ const Wrapper = ({ children }) => {
 		</TransitionGroup>
 	);
 };
+
 export default class App extends Component {
 	render() {
 		return (

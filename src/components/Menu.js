@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
+	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setIsMobileMenuOpen(!isMobileMenuOpen);
+	};
+
 	return (
-		/* < !--Primary Page Layout
-       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-       */
 		<div className='Menu'>
-			<div class='one-half column'>
+			<div className='one-half column'>
 				<header>
-					<nav class='nav red'>
-						<div class='nav-wrapper'>
-							<ul class='nav__list'>
+					<nav className='nav red'>
+						<div className='nav-wrapper'>
+							<ul
+								className={`nav__list ${isMobileMenuOpen ? 'mobile-open' : ''}`}
+							>
 								<li>
 									<Link className='nav__link' to='/portfolio'>
 										Présentation
@@ -43,6 +48,9 @@ const Menu = () => {
 									</Link>
 								</li>
 							</ul>
+							<button onClick={toggleMenu} className='menu-toggle'>
+								☰
+							</button>
 						</div>
 					</nav>
 				</header>

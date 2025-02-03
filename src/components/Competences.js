@@ -9,34 +9,54 @@ import mysql from '../assets/languages/mysql.png';
 import php from '../assets/languages/php.png';
 import reactjs from '../assets/languages/reactjs.png';
 import symfony from '../assets/languages/symfony.png';
+import '../css/Competences.css';
+
+window.onload = () => {
+	const waveTitles = document.querySelectorAll('.wave-title');
+	waveTitles.forEach((title) => {
+		title.classList.add('wave-animation');
+	});
+};
 
 const Competences = () => {
 	return (
 		<div className='Competences'>
 			<h4>
-				<em class='competences-earwig'>Compétences</em>
+				<em class='competences-earwig wave-title'>Compétences</em>
 			</h4>
 			<div className='col s12'>
 				<div className='card-skills overflow-hidden'>
 					<div className='card-content center-when-small'>
 						<ul className='col 16 m6 s6'>
-							<li className='language orange-text'>
-								<img alt='html logo' className='language-icon' src={html5} />
+							<li className='language orange-text animate-text'>
+								<img
+									alt='html logo'
+									className='language-icon animate-logo'
+									src={html5}
+								/>
 								HTML5
 							</li>
-							<li className='language blue-text'>
-								<img alt='css logo' className='language-icon' src={css3} />
+							<li className='language blue-text animate-text'>
+								<img
+									alt='css logo'
+									className='language-icon animate-logo'
+									src={css3}
+								/>
 								CSS3
 							</li>
-							<li className='language yellow-text'>
-								<img alt='javascript logo' className='language-icon' src={js} />
+							<li className='language yellow-text animate-text'>
+								<img
+									alt='javascript logo'
+									className='language-icon animate-logo'
+									src={js}
+								/>
 								JavaScript
 							</li>
 
-							<li className='language orange-text text-accent-4'>
+							<li className='language orange-text text-accent-4 animate-text'>
 								<img
 									alt='laravel logo'
-									className='language-icon'
+									className='language-icon animate-logo'
 									src={laravel}
 								/>
 								Laravel
@@ -44,39 +64,57 @@ const Competences = () => {
 						</ul>
 
 						<ul className='col l6 m6 s6'>
-							<li className='language grey-text'>
-								<img alt='PHP logo' className='language-icon' src={php} />
+							<li className='language grey-text animate-text'>
+								<img
+									alt='PHP logo'
+									className='language-icon animate-logo'
+									src={php}
+								/>
 								PHP
 							</li>
-							<li className='language light-blue-text'>
-								<img alt='React logo' className='language-icon' src={reactjs} />
+							<li className='language light-blue-text animate-text'>
+								<img
+									alt='React logo'
+									className='language-icon animate-logo'
+									src={reactjs}
+								/>
 								ReactJS
 							</li>
-							<li className='language light-green-text'>
-								<img alt='MySQL logo' className='language-icon' src={mysql} />
+							<li className='language light-green-text animate-text'>
+								<img
+									alt='MySQL logo'
+									className='language-icon animate-logo'
+									src={mysql}
+								/>
 								MySQL
 							</li>
-							<li className='language white-text'>
+							<li className='language white-text animate-text'>
 								<img
 									alt='Symfony logo'
-									className='language-icon'
+									className='language-icon animate-logo'
 									src={symfony}
 								/>
 								Symfony
 							</li>
 						</ul>
 
-						<div className='diplome'>
+						<div className='diplomes-earwig'>
 							<h3>
-								<em>Diplômes</em>
+								<em className='diplome wave-title'>Diplômes</em>
 							</h3>
+						</div>
+						<div className='diplome'>
 							<a
 								className='bep-link'
 								href={bep}
 								target='__blank'
 								rel='noopener noreferrer'
 							>
-								<img alt='bep Yoann Menard' src={bep}></img>
+								<img
+									alt='bep Yoann Menard'
+									className='diplome-img'
+									src={bep}
+								></img>
 							</a>
 							<a
 								className='rncp-link'
@@ -84,13 +122,17 @@ const Competences = () => {
 								target='__blank'
 								rel='noopener noreferrer'
 							>
-								<img alt='RNCP+5 Yoann Menard' src={rncp}></img>
+								<img
+									alt='RNCP+5 Yoann Menard'
+									className='diplome-img'
+									src={rncp}
+								></img>
 							</a>
 						</div>
 
-						<div className='formation'>
+						<div className='formations-earwig'>
 							<h3>
-								<em>Formation</em>
+								<em className='formations wave-title'>Formations</em>
 							</h3>
 
 							<b className='white-text'>2025-2026</b>
@@ -147,9 +189,11 @@ const Competences = () => {
 							</p> */}
 						{/* </div> */}
 
-						<div className='experiences professionnelles'>
+						<div className='experiences-earwig'>
 							<h3>
-								<em class='text'>Expériences professionnelles</em>
+								<em className='experiences wave-title'>
+									Expériences professionnelles
+								</em>
 							</h3>
 							<b class='red-text'>Octobre 2024 - Novembre 2024 (1 mois)</b>
 							<p class='white-text'>
@@ -169,6 +213,7 @@ const Competences = () => {
 									React.js, TypeScript, JSON Forms, PHP, PostgreSQL
 								</strong>
 							</p>
+							<hr></hr>
 
 							<b class='red-text'>
 								{' '}
@@ -198,6 +243,7 @@ const Competences = () => {
 							<p class='white-text'>
 								- Technologie utilisée : <strong>Webflow</strong>
 							</p>
+							<hr></hr>
 
 							<b class='red-text'>
 								27 Septembre 2021 - 18 Novembre 2022 (1 an et 2 mois)
