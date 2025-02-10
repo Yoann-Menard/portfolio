@@ -72,7 +72,7 @@ export default function Contact() {
 							<textarea
 								id='icon_prefix2'
 								className='materialize-textarea'
-								name='message_html'
+								name='message'
 								required
 							></textarea>
 							<label htmlFor='icon_prefix2'>Message</label>
