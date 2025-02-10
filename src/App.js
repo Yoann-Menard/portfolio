@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
 	Route,
 	BrowserRouter as Router,
-	Switch,
+	Routes,
 	useLocation,
 } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -29,7 +29,7 @@ const Wrapper = ({ children }) => {
 	return (
 		<TransitionGroup>
 			<CSSTransition key={location.key} timeout={500} classNames='page'>
-				<Switch location={location}>{children}</Switch>
+				<div>{children}</div>
 			</CSSTransition>
 		</TransitionGroup>
 	);
@@ -43,14 +43,14 @@ export default class App extends Component {
 				<Router>
 					<Menu />
 					<Wrapper>
-						<Switch>
-							<Route exact path='/portfolio' component={Presentation} />
-							<Route exact path='/about' component={Coordonnees} />
-							<Route exact path='/skills' component={Competences} />
-							<Route exact path='/projects' component={Projets} />
-							<Route exact path='/hobbies' component={Hobbies} />
-							<Route exact path='/contact' component={Contact} />
-						</Switch>
+						<Routes>
+							<Route path='/portfolio' element={<Presentation />} />
+							<Route path='/about' element={<Coordonnees />} />
+							<Route path='/skills' element={<Competences />} />
+							<Route path='/projects' element={<Projets />} />
+							<Route path='/hobbies' element={<Hobbies />} />
+							<Route path='/contact' element={<Contact />} />
+						</Routes>
 					</Wrapper>
 					<Footer />
 				</Router>

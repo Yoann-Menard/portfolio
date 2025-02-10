@@ -1,5 +1,6 @@
+import emailjs from '@emailjs/browser';
 import React from 'react';
-import emailjs from 'emailjs-com';
+import '../css/Contact.css';
 
 export default function Contact() {
 	function sendEmail(e) {
@@ -7,10 +8,10 @@ export default function Contact() {
 
 		emailjs
 			.sendForm(
-				'gmail',
-				'template_UDg6rOzX',
+				process.env.REACT_APP_EMAILJS_SERVICE_ID,
+				process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
 				e.target,
-				'user_umFWRdwZ7MIp2yDqT5hV8'
+				process.env.REACT_APP_EMAILJS_PUBLIC_KEY
 			)
 			.then(
 				(result) => {
@@ -24,64 +25,72 @@ export default function Contact() {
 
 	return (
 		<div className='Contact'>
-			<form
-				className='contact-form form-contact white-font'
-				onSubmit={sendEmail}
-			>
-				<div className='row blue-text'>
-					<h2>
-						<em class='contact-earwig'>Me contacter</em>
-					</h2>
-				</div>
-				<br />
-				<div className='row'>
-					<div className='input-field col s12 l12 green-text text-accent-4'>
-						<i className='material-icons prefix'>account_circle</i>
-						<input
-							id='icon_prefix'
-							type='text'
-							className='validate blue-font'
-							name='from_name'
-							required
-						/>
-						<label htmlFor='icon_prefix'>Nom</label>
+			<div className='contact-container wave-title'>
+				<form
+					className='contact-form form-contact white-font'
+					onSubmit={sendEmail}
+				>
+					<div className='row center-align'>
+						<h2 className='fade-in'>
+							<em className='contact-earwig wave-title'>Me contacter</em>
+						</h2>
+					</div>
+					<br />
+					<div className='row'>
+						<div className='input-field col s12 l12'>
+							{' '}
+							<i className='material-icons prefix' name='from_name'>
+								account_circle
+							</i>
+							<input
+								id='icon_prefix'
+								type='text'
+								className='validate'
+								name='from_name'
+								required
+							/>
+							<label htmlFor='icon_prefix'>Nom</label>
+						</div>
+						<div className='input-field col s12 l12'>
+							<i className='material-icons prefix' name='reply_to'>
+								email
+							</i>
+							<input
+								id='icon_email'
+								type='email'
+								className='validate'
+								name='reply_to'
+								required
+							/>
+							<label htmlFor='icon_email'>Email</label>
+						</div>
+
+						<div className='input-field col s12 l12'>
+							<i className='material-icons prefix' name='message_html'>
+								mode_edit
+							</i>
+							<textarea
+								id='icon_prefix2'
+								className='materialize-textarea'
+								name='message_html'
+								required
+							></textarea>
+							<label htmlFor='icon_prefix2'>Message</label>
+						</div>
 					</div>
 
-					<div className='input-field col s12 l12 materialize grey-text'>
-						<i className='material-icons prefix'>email</i>
-						<input
-							id='icon_email'
-							type='email'
-							className='validate white-font'
-							name='reply_to'
-							required
-						/>
-						<label htmlFor='icon_email'>Email</label>
+					<div className='row center-align wave-title'>
+						<button
+							className='waves-effect waves-light btn-large pulse'
+							type='submit'
+							name='action'
+						>
+							Envoyer
+							<i className='material-icons right wave-title'>send</i>
+						</button>
 					</div>
-
-					<div className='input-field col s12 l12 materialize blue-text'>
-						<i className='material-icons prefix'>mode_edit</i>
-						<textarea
-							id='icon_prefix2'
-							className='materialize-textarea textarea-height validate yellow-font'
-							name='message_html'
-							required
-						></textarea>
-						<label htmlFor='icon_prefix2'>Message</label>
-					</div>
-				</div>
-
-				<div className='contact-btn'>
-					<button
-						class='waves-effect waves-light btn-large btn-large pulse'
-						type='submit'
-						name='action'
-					>
-						Envoyer
-						<i class='material-icons right'>send</i>
-					</button>
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 	);
 }

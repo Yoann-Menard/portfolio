@@ -1,0 +1,33 @@
+.wave-title {
+	display: inline-block;
+	animation: waveEffect 3s ease-in-out infinite;
+}
+
+.Menu {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+.nav {
+	background-color: #e63746;
+}
+
+.nav__list {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.nav__link:hover {
+	background-color: #f1faee;
+	color: #e63946;
+}

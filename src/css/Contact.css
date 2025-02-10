@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in {
+	animation: fadeIn 1s ease-out forwards;
+}
+
+.Contact {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #121212;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.contact-form {
+	width: 100%;
+	max-width: 600px;
+	background: rgba(0, 0, 0, 0.85);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+	color: #fff;
+}
+
+.input-field input,
+.input-field textarea {
+	color: #fff;
+}
+
+.input-field input::placeholder,
+.input-field textarea::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+label {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+	background: #1db954;
+	color: #fff;
+}
+
+button:hover {
+	background: #1aa34a;
+}
+
+.input-field i.material-icons.prefix[name='from_name'] {
+	color: #ff0000 !important;
+}
+
+.input-field i.material-icons.prefix[name='reply_to'] {
+	color: #ffffff !important;
+}
+
+.input-field i.material-icons.prefix[name='message_html'] {
+	color: #ffd700 !important;
+}
